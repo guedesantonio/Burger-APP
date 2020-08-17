@@ -1,16 +1,24 @@
 {
-  "name": "mvc_design",
+  "name": "burger_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A burger logger with MySQL, Node, Express, Handlebars and ORM ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "none",
+    "start": "node server.js"
   },
-  "author": "",
+  "keywords": [
+    "MySQL",
+    "Node",
+    "Express",
+    "Handlebars",
+    "ORM"
+],
+  "author": "Antonio Guedes",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.1.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
