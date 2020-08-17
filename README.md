@@ -4,7 +4,7 @@
 ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Description
-  An APP that controls a list of burger devoured and desired done with MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML. T
+  An APP that controls a list of burger devoured and desired done with MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
   
   ## Table of contents
   
