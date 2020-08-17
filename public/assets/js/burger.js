@@ -29,7 +29,7 @@ $(() => {
     };
 
     // Send the POST request.
-    $.ajax("/api/burger", {
+    $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
     }).then(
