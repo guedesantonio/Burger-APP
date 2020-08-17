@@ -1,8 +1,8 @@
-<li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
 	{{id}}. {{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
-		{{#unless devoured}}Devour It!{{/unless}}
+	<button class="btn btn-primary btn-sm change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
+		{{#if devoured}}Devour it!{{/if}}
 	</button>
 
 </li>
