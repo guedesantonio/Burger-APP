@@ -2,16 +2,13 @@
   <div class="row text-center">
     <div class="col-sm-12 col-6 mx-auto">
       <img src="/assets/img/burger.png" alt="Burger drawing" width="200" height="200">
-    </div>
-  </div>
-  <div class="row my-2 py-2">
-    <div class="col-sm-12 col-md-10 offset-md-1">
-      <h1>Eat-Da-Burger!</h1>
+       <h1>Eat-Da-Burger!</h1>
     </div>
   </div>
 
   <div class="row mt-2">
     <div class="col-md-6 my-1">
+      <h2 class="ml-2 pl-3 colTitle">Ready to be Devoured!</h2>
       <ul class="list-group">
         <ul>
           {{#each burgers}}
@@ -23,10 +20,13 @@
     </div>
 
     <div class="col-md-6 my-1">
+      <h2 class="ml-2 pl-3 colTitle">Devoured Burgers!</h2>
       <ul class="list-group ml-4">
         {{#each burgers}}
         {{#if devoured}}
-        {{> burger-block devoured=false}}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          {{id}}. {{burger_name}}
+        </li>
         {{/if}}
         {{/each}}
       </ul>
@@ -39,8 +39,8 @@
           <input type="text" id="burger" name="burger_name">
         </div>
         <div class="text-center mt-2">
-          <button class="submit-button" type="submit">
-            <h5 class="welcome">Add a Burger</h5>
+          <button class="btn btn-primary btn-sm submit-button" type="submit">Submit</button>
+          <p>Enter a burger you want to eat. Click the "Submit" button.</p>
           </button>
         </div>
 
