@@ -13,7 +13,7 @@
     "Express",
     "Handlebars",
     "ORM"
-],
+  ],
   "author": "Antonio Guedes",
   "license": "ISC",
   "dependencies": {
